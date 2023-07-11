@@ -1,8 +1,36 @@
 /* start heading part */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 *{
   margin: 0%;
+  font-family: 'Lato', sans-serif;
 }
-
+/* start nav section */
+.menu{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: rgba(240, 128, 128, 0.749);
+ padding: 20px;
+}
+.logo{
+  font-size: 40px;
+  font-weight: bolder;
+  color: green;
+}
+.menus{
+  display: flex;
+  list-style: none;
+}
+.item{
+ margin-right: 10px; 
+ padding-right: 7px;
+ font-size: 18px;
+ color: green;
+ cursor: pointer;
+}
+.item:hover{
+  color: blue;
+}
 .header{
   display: flex;
   justify-content:space-around;
@@ -14,9 +42,11 @@
 }
  .flower-pic{
   width: 400px;
-  padding: 80px 200px 30px 0%;
+  height: auto;
+  padding: 80px 200px 0 0;
   margin: 0;
  }
+ 
  .btn-primary{
   padding: 15px;
   width: 100px;
@@ -95,10 +125,48 @@
   background-color: rgba(211, 211, 211, 0.635);
   border-radius: 10px;
  }
+ .banner-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+.banner-img{
+  width: 60px;
+  height: 60px;
+}
  .banner-description{
   margin-top: 10px;
  }
  /* end main section 2 */
+
+ /* special section */
+.special{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: row-reverse;
+}
+.special-flower{
+  margin: 20px;
+  padding: 50px;
+}
+.special-pic{
+  width: 350px;
+  height: 370px;
+}
+.title-top{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #E55473;
+}
+.title-end{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.special-description{
+  color: darkgrey;
+}
 
  /* start main section 3 */
  .middle{
@@ -134,7 +202,7 @@
   color: darkgray;
  }
  .flower-group{
-  width: 200px;
+  width: 300px;
   height: auto;
  }
  .flowers{
@@ -144,11 +212,15 @@
   display: flex;
   justify-content: center;
   align-items: end;
+  margin-top: 50px;
  }
  .flowers-list{
  display: flex;
  justify-content: center;
  align-items: center;
+ }
+ .different-flower{
+  margin-top: 50px;
  }
  /* end main section 4 */
 
@@ -162,6 +234,7 @@
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 100px;
+  border-radius: 8px;
  }
  .form-head{
   font-weight: bolder;
@@ -208,13 +281,13 @@
   font-weight: bolder;
  }
  .footer-description{
-  font-size: smaller;
-  font-weight: lighter;
-  color: rgba(169, 169, 169, 0.836);
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.712);
  }
  .last-word{
-  font-size: smaller;
-  font-weight: lighter;
+  font-size: 12px;
+  font-weight: 400;
   color: rgba(169, 169, 169, 0.547);
  }
  /* end footer section */
