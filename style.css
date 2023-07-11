@@ -43,6 +43,7 @@
  .main-content{
   font-size: small;
   font-weight: light;
+  color: darkgrey;
  }
  .featured-flower{
   width: 200px;
@@ -130,6 +131,7 @@
  .flower-description{
   font-weight: 10px;
   font-size: small;
+  color: darkgray;
  }
  .flower-group{
   width: 200px;
@@ -167,6 +169,7 @@
  .form-description{
   font-size: smaller;
   font-weight: lighter;
+  color: darkgray;
  }
  .form-sheet{
   display: flex;
@@ -188,6 +191,33 @@
  /* end main section 5 */
 
  /* start footer section */
+ .footer-main{
+  text-align: center;
+  padding: 100px;
+  height: 200px;
+  background-color: black;
+ }
+ .footer-content{
+  color: white;
+   text-align: center;
+  padding: 100px;
+  height: 100px;
+  background-color: black;
+ }
+ .footer-head{
+  font-weight: bolder;
+ }
+ .footer-description{
+  font-size: smaller;
+  font-weight: lighter;
+  color: rgba(169, 169, 169, 0.836);
+ }
+ .last-word{
+  font-size: smaller;
+  font-weight: lighter;
+  color: rgba(169, 169, 169, 0.547);
+ }
+ /* end footer section */
 
  
  
